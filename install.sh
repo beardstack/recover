@@ -5,4 +5,4 @@ sudo add-apt-repository ppa:nextcloud-devs/client -y && apt-get update && apt-ge
 sudo add-apt-repository ppa:eugenesan/ppa -y && sudo apt-get update && apt-get install -y keepassx
 
 #vlc/firefox
-sudo apt-get install -y firefox vlc
+sudo apt-get install -y firefox vlc  gnome-disk-utility
