@@ -1,5 +1,7 @@
 #disable power management.
 sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
+xfce4-power-manager -q
+xset -dpms
 
 #nextcloud
 sudo add-apt-repository ppa:nextcloud-devs/client -y 
