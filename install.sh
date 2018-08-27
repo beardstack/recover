@@ -1,3 +1,6 @@
+#disable power management.
+sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
+
 #nextcloud
 sudo add-apt-repository ppa:nextcloud-devs/client -y 
 #keepassx
